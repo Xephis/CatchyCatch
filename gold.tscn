@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ba4qyhovklyfy"]
+
+[ext_resource type="Script" path="res://gold.gd" id="1_inmqy"]
+[ext_resource type="Texture2D" uid="uid://caqy4ireb6aku" path="res://Tiny Swords/Tiny Swords (Update 010)/Resources/Resources/G_Idle_(NoShadow).png" id="1_v0484"]
+
+[node name="RigidBody2D" type="RigidBody2D"]
+script = ExtResource("1_inmqy")
+
+[node name="GIdle(noShadow)" type="Sprite2D" parent="."]
+texture = ExtResource("1_v0484")

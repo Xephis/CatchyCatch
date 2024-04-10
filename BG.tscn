@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://ckydlicpwl8mb"]
+
+[ext_resource type="Texture2D" uid="uid://cask41cgoqjo5" path="res://Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Background/Small Cloud 1.png" id="1_jh47c"]
+[ext_resource type="Texture2D" uid="uid://dnvvhgrbjgq6" path="res://Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Background/Small Cloud 3.png" id="2_luvrj"]
+[ext_resource type="Texture2D" uid="uid://c68ms7s315s43" path="res://Treasure Hunters/Treasure Hunters/Palm Tree Island/Sprites/Background/Small Cloud 2.png" id="3_nksfp"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="SmallCloud1" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(144, 104)
+texture = ExtResource("1_jh47c")
+
+[node name="SmallCloud5" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(488, 104)
+texture = ExtResource("1_jh47c")
+
+[node name="SmallCloud3" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(264, 120)
+texture = ExtResource("2_luvrj")
+
+[node name="SmallCloud4" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(520, 190)
+texture = ExtResource("2_luvrj")
+
+[node name="SmallCloud2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(176, 160)
+texture = ExtResource("3_nksfp")
+
+[node name="SmallCloud6" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(456, 192)
+texture = ExtResource("3_nksfp")
+
+[node name="SmallCloud7" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(725, 116)
+texture = ExtResource("1_jh47c")
+
+[node name="SmallCloud9" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(845, 132)
+texture = ExtResource("2_luvrj")
+
+[node name="SmallCloud11" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(757, 172)
+texture = ExtResource("3_nksfp")
